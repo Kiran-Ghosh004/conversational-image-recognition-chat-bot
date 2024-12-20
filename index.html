@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ai Chat Bot</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <main class="pre-loader ">
+        <h1 class= "h1-tag ">Ai Chat Bot</h1>
+        <h3 class="h3-tag ">conversational image recognization chat bot</h3>
+        <button class="start ">get-started</button>
+    </main>
+    <div class="chat-container">
+        <div class="ai-chat-box">
+            <img src="DALL_E_2024-11-21_22.55.23_-_A_futuristic_chatbot_design_featuring_a_robotic_head_with_a_minimalist_and_elegant_look._The_chatbot_has_glowing_blue_accents_around_the_edges__expres-removebg-preview.png"
+                alt="" id="aiImage" width="10%">
+            <div class="ai-chat-area">
+                Hello ! How Can I Help you Today?
+            </div>
+
+
+        </div>
+    </div>
+    <div class="prompt-area">
+        <input type="text" id="prompt" placeholder="Message...">
+        <button id="image"><img src="img.svg" alt="">
+            <input type="file" accept="images/*" hidden></button>
+        <button id="submit"><img src="submit.svg" alt=""></button>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
