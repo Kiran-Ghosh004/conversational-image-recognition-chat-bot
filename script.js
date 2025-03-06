@@ -20,7 +20,7 @@ start.addEventListener("click",()=>{
     },500)
 })
 
-const Api_Url="https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent?key=AIzaSyDD58TTAbHEzxpMJaM5Ktx3o7fK-H3yDy8"
+const Api_Url="https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent?key="api key"
 
 let user={
     message:null,
